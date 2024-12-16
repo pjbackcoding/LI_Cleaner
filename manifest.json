@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "LinkedIn Profile Cleaner",
+  "version": "1.0",
+  "description": "Cleans up LinkedIn profile UI for better focus on essential information",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.linkedin.com/in/*"],
+      "css": ["styles.css"],
+      "js": ["content.js"]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+/* Hide promotional elements and unnecessary UI components */
+.pv-profile-sticky-header-v2__actions-container,
+.pv-profile__sponsor-module,
+.pvs-profile-actions,
+.artdeco-dropdown,
+.pv-top-card-v2__cta-container,
+.pv-recent-activity-section-v2,
+.pv-profile-section__see-more-inline,
+.pv-profile-section__card-action-bar,
+.pv-dashboard-section,
+.profile-creators-settings,
+.pv-profile-insights,
+.pv-profile__create-profile-button,
+.pv-profile__edit-buttons,
+.pv-profile__actions-wrapper,
+.pv-profile__connection-insights,
+.pv-profile__connection-count,
+.pv-profile__stats-container,
+.pv-profile__sponsor-module,
+.pv-profile__ads-container,
+.pv-profile__ads,
+.pv-profile__premium-settings,
+.pv-profile__premium-badge,
+.profile-badge,
+.presence-entity__indicator {
+    display: none !important;
+}
+
+/* Clean up the header area */
+.pv-top-card {
+    padding: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+
+/* Simplify the profile photo */
+.pv-top-card__photo {
+    margin: 0 !important;
+    border: none !important;
+}
+
+/* Make the name and headline more prominent */
+.text-heading-xlarge {
+    font-size: 1.5rem !important;
+    margin-bottom: 0.5rem !important;
+}
+
+.text-body-medium {
+    font-size: 1rem !important;
+    color: #666 !important;
+}
+
+/* Streamline sections */
+.artdeco-card {
+    box-shadow: none !important;
+    border: 1px solid #e0e0e0 !important;
+    margin-bottom: 1rem !important;
+    padding: 1rem !important;
+}
+
+/* Hide premium indicators and badges */
+.premium-icon,
+.dist-value,
+.pv-profile-section__action-bar {
+    display: none !important;
+}
+
+/* Clean up the experience and education sections */
+.pvs-entity__path-node {
+    margin: 0 !important;
+    padding: 0.5rem 0 !important;
+}
+
+/* Remove unnecessary padding and margins */
+.pv-profile-section {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Hide social proof elements */
+.social-proof-container,
+.pv-profile-section__connections {
+    display: none !important;
+}
+
+/* Simplify buttons and actions */
+.artdeco-button {
+    background: none !important;
+    border: 1px solid #0073b1 !important;
+    color: #0073b1 !important;
+    padding: 0.5rem 1rem !important;
+    margin: 0.25rem !important;
+}
+
+/* Clean up navigation */
+.pvs-navigation__text {
+    font-size: 0.9rem !important;
+    color: #666 !important;
+}
